@@ -14,12 +14,14 @@
         android:text="@string/texto"
         android:textSize="36sp"
         android:textStyle="bold"
+        android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.61"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.173" />
+        app:layout_constraintVertical_bias="0.173"
+        tools:visibility="visible" />
 
     <Button
         android:id="@+id/button"
@@ -32,9 +34,11 @@
         android:layout_marginRight="230dp"
         android:layout_marginBottom="366dp"
         android:text="@string/Boton"
+        android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        tools:visibility="visible" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
